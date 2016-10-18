@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+#marco-principal,
+#marco-principal.portada,
+#marco-principal.ingles,
+#marco-principal.portada.desplazado,
+#marco-principal.desplazado,
+#marco-principal.ingles.desplazado
+{
+	margin-top:0;
+}
+
+#contenidos
+{
+	display:block;
+}
+
+#encabezado
+{
+	padding:10px;
+	position:relative;
+}
+
+#encabezado.desplazado
+{
+	padding:4px 10px 4px 10px;
+}
+
+#centro-arriba,
+#centro-arriba.desplazado
+{
+	margin-top:-3px;
+	position:relative;
+	top:0;
+	padding:5px;
+}
+
+div.columna-principal
+{
+	display:block;
+}
+
+div.columna-izquierda,
+div.columna-derecha
+{
+	display:block;
+	position:relative;	
+	bottom:0;
+	width:100%;
+	max-width:100%;
+	padding-bottom:40px;
+}
+
+.contenido-interno
+{
+	min-width:760px;
+	width:100%;
+	max-width:100%;
+}
+
+div.columna-principal div.noticia.detalle
+{
+	width:100%;
+	display:table-cell;
+}
+
+div.columna-principal div.barra-accesorios
+{
+	padding-top:250px;
+	display:table-cell;
+	width:200px;
+	min-width:200px;
+}
+
+div.columna-principal div.noticia div.titulo
+{
+	width:100%;
+	max-width:100%;
+}
+
+#pie-pagina .izquierda
+{
+	white-space:normal;
+}
+
+#pie-pagina .contenido-interno
+{
+	padding:0 10px 10px 10px;
+}
+
+#multimedios
+{
+	height:100%;
+}
+
+#multimedios .pizarra .contador, 
+#multimedios .pizarra .contador a
+{
+	font-size:13px;
+}
+
+div.imagen-destacada,
+div.imagen-destacada-marco
+{	
+	width:392px;
+}
+
+div.noticia div.imagen-destacada-marco
+{	
+	width:260px;
+}
+
+div.columna-principal div.etiquetas
+{
+	width:auto;
+}
+
+div.ruta
+{
+	font-size:14px;
+}
+
+div.datePicker
+{
+	font-size:13px;
+}
+
+div.datePicker table td,
+div.datePicker table tbody th
+{
+	width:26px;
+	height:26px;	
+}
+
+div.columna-derecha ul.menu
+{
+	width:100%;
+}
+
+div.columna-derecha ul.menu li
+{
+	width:100%;
+	max-width:300px;
+	min-height:45px;
+	margin:0 auto 2px auto;
+}
+
+ul.menu-perfiles li
+{
+	width:auto;
+	min-width:180px;
+}
+
+#encabezado .derecha ul.menu-iconos li > span,
+#encabezado .derecha ul.menu-iconos li > a
+{
+	font-size:11px;
+	height:20px;
+	line-height:20px;
+	width:44px;
+}
+
+#menu-incrementa-letra
+{
+	background:transparent url(../imagenes/x-large/inc-letra.png) no-repeat;
+}
+
+#menu-decrementa-letra
+{
+	background:transparent url(../imagenes/x-large/dec-letra.png) no-repeat;
+}
+
+#menu-eng
+{
+	background:transparent url(../imagenes/x-large/eng.png) no-repeat;
+}
+
+#menu-loguear
+{
+	background:transparent url(../imagenes/x-large/loguear.png) no-repeat;
+}
+
+div.menu-accesorios.enlaces li
+{
+	min-height:28px;
+}
+
+div.enlaces ul li.caja a
+{
+	max-width:88px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul.pestanas li
+{
+	display:inline-block;
+	min-width:90px;
+	padding-top:15px;
+}
+
+#marco-principal.multimedios.principal ul.listado
+{
+	width:100%;
+}
+
+#marco-principal.multimedios.principal ul.listado li
+{
+	height:163px;
+}
+
+ul.listado li
+{
+	max-height:172px;
+}
+
+.destaque-portada.noticias
+{
+	width:100%;
+}
+
+.destaque-portada.noticias .noticias,
+.destaque-portada.noticias
+ {
+	height:auto;
+	position:relative;
+}
+
+.destaque-portada.noticias .noticias
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+.destaque-portada .noticias .noticia .texto.derecha
+{
+	padding:10px;
+}
+
+.destaque-portada.noticias .noticias .panel
+{
+	width:100%;
+}
+
+.destaque-portada.noticias .noticias .noticia .derecha
+{
+	width:auto;
+	max-width:52%;
+}
+
+.destaque-portada.noticias .noticias .panel.textos
+{
+	width:100%;
+}
+
+div.iconos-funciones-articulo a.icono
+{
+	width:30px;
+	height:29px;
+	margin-right:2px;
+}
+
+div.iconos-funciones-articulo a.pdf
+{
+	background:#1E4B70 url(../imagenes/x-large/pdf.png);
+}
+
+div.iconos-funciones-articulo a.email
+{
+	background:#1E4B70 url(../imagenes/x-large/correo.png);
+}
+
+div.iconos-funciones-articulo a.imprimir
+{
+	background:#1E4B70 url(../imagenes/x-large/imprimir.png);
+}
+
+div.iconos-funciones-articulo a.facebook
+{
+	background:#1E4B70 url(../imagenes/x-large/facebook.png);
+}
+
+div.iconos-funciones-articulo a.twitter
+{
+	background:#1E4B70 url(../imagenes/x-large/twitter.png);
+}
+
+div.actividades-recientes div.detalle a
+{
+	font-size:11px;
+	line-height:11px;
+}
+
+div.actividades-recientes div.fecha
+{
+	font-size:14px;
+}
+
+div.actividades-recientes div.fecha div
+{
+	font-size:12px;
+}
+
+div.actividades-recientes div.botones span,
+div.actividades-recientes div.botones span a
+{
+	font-size:17px;	
+}
+
+div.formulario .columna.expande, 
+.tabla .columna.expande
+{
+	font-size:15px;
+}
+
+.destaque-portada.noticias .noticias .noticia .imagen,
+.destaque-portada.noticias .noticias .noticia .derecha
+{
+	display:table-cell;
+}
+
+.formulario .siguiente,
+.formulario .ultima,
+li.pagination-next span,
+li.pagination-next a,
+li.pagination-end span,
+li.pagination-end a,
+li.pagenav-next span,
+li.pagenav-next a,
+li.pagenav-end span,
+li.pagenav-end a
+{
+	border-top:7px solid transparent;
+	border-left:12px solid #666;
+	border-bottom:7px solid transparent;
+}
+
+.formulario .anterior,
+.formulario .primera,
+li.pagination-start span,
+li.pagination-start a,
+li.pagination-prev span,
+li.pagination-prev a,
+li.pagenav-start span,
+li.pagenav-start a,
+li.pagenav-prev span,
+li.pagenav-prev a
+{
+	border-top:7px solid transparent;
+	border-right:12px solid #666;
+	border-bottom:7px solid transparent;
+}
+
+.formulario .ultima:after,
+.formulario .primera:before,
+li.pagination-end span:after,
+li.pagination-end a:after,
+li.pagination-start span:before,
+li.pagination-start a:before,
+li.pagenav-end span:after,
+li.pagenav-end a:after,
+li.pagenav-start span:before,
+li.pagenav-start a:before
+{
+   height:15px;
+   margin-top:-7px;
+}
+
+/************** MULTIMEDIA ****************/
+
+.jp-audio .contenedor-controles, .jp-video .contenedor-controles 
+{
+    height:40px;
+}
+
+.jp-controls div.vol-rep
+{
+	width:75px;
+}
+
+.jp-controls div.volumen
+{
+	width:33px;
+	height:33px;
+}
+
+.jp-controls div.reproduccion
+{
+	width:33px;
+	height:33px;
+}
+
+.jp-controls div.progreso
+{
+	height:27px;
+}
+
+.jp-audio .jp-play, 
+.jp-video .jp-play
+{
+	width:33px;
+	height:33px;
+	background:#78B60A url(../imagenes/x-large/reproducir.png);
+}
+
+.jp-audio .jp-play:hover, 
+.jp-video .jp-play:hover
+{
+	background:#23261D url(../imagenes/x-large/reproducir.png);
+}
+
+.jp-audio .jp-pause, 
+.jp-video .jp-pause
+{
+	width:33px;
+	height:33px;
+	background:#78B60A url(../imagenes/x-large/pausa.png);
+}
+
+.jp-audio .jp-pause:hover, 
+.jp-video .jp-pause:hover
+{
+	background:#23261D url(../imagenes/x-large/pausa.png);
+}
+
+.jp-audio .jp-mute, 
+.jp-video .jp-mute
+{
+	left:-4px;
+	width:33px;
+	height:33px;
+	background:#78B60A url(../imagenes/x-large/volumen.png);
+}
+
+.jp-audio .jp-unmute, 
+.jp-video .jp-unmute
+{
+	left:-4px;
+	width:33px;
+	height:33px;
+	background:white url(../imagenes/x-large/volumen-muted.png);
+}
+
+.jp-progress
+{
+	height:18px;
+	margin-top:8px;	
+}
+
+.jp-buffer-bar
+{
+	height:18px;
+}
+
+.jp-play-bar
+{
+	height:18px;
+}
+
+.jp-seek-bar
+{
+	height:18px;
+}
+
+/*************** TUTORIAL ***********/
+.tut-globo .textos
+{
+	height:150px;
+	width:100%;
+	padding:5px;
+}
+
+#tut-inicio .textos,
+#tut-fin .textos
+{
+	width:100%;
+	height:150px;	
+}
+
+.tut-globo .tabla
+{
+	height:50px;
+}
+
+.tut-paso-anterior,
+.tut-paso-siguiente,
+.tut-reiniciar
+{
+	width:128px;
+}
+
+.tut-globo .tabla .columna,
+.tut-globo .tabla .columna.expande
+{
+	font-size:12px;
+	padding:10px;
+}
+
+#tut-inicio,
+#tut-arquetipos,
+#tut-consulta,
+#tut-noticias,
+#tut-secciones,
+#tut-preguntas,
+#tut-actividad,
+#tut-estudiantes,
+#tut-fin
+{
+	width:320px;
+	height:200px;
+	margin-left:-160px;
+}
+
+#tut-consulta
+{
+	right:0;
+}
+
+#tut-arquetipos:before,
+#tut-consulta:before,
+#tut-noticias:before,
+#tut-secciones:before
+{	
+	left:50%;
+	margin-left:-7px;
+	top:-14px;
+	border-left:14px solid transparent;
+	border-right:14px solid transparent;
+	border-bottom:14px solid #F99D1F;
+}
+
+#tut-actividad:before
+{	
+	left:50%;
+	margin-left:-7px;
+	bottom:-14px;
+	border-left:14px solid transparent;
+	border-right:14px solid transparent;
+	border-top:14px solid #CC7B1B;
+}
+
+#tut-preguntas:before
+{
+	top:50%;
+	margin-top:-7px;
+	right:-14px;
+	border-top:14px solid transparent;
+	border-left:14px solid #F99D1F;
+	border-bottom:14px solid transparent;
+}
+
+#tut-estudiantes:before
+{	
+	bottom:-7px;
+	left:-7px;
+	border-bottom:14px solid #CC7B1B;
+	border-right:14px solid transparent;
+}
+
+#tut-estudiantes:after
+{	
+	bottom:-7px;
+	right:-7px;
+	border-bottom:14px solid #CC7B1B;
+	border-left:17px solid transparent;
+}
+
+/******* FIN TUTORIAL ********/
+
+#mosaico
+{
+	margin:12px 3% 12px 3%;
+}

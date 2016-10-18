@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#encabezado
+{
+	background:#005da4;
+}
+
+#encabezado .logo
+{
+	border-left: 1px solid white;
+}
+
+#encabezado .logo, #encabezado .logo a, #encabezado .logo h1
+{
+	color:white;
+}
+
+#encabezado .izquierda a
+{
+	background:url(../imagenes/firma-horizontal-dos-lineas-reverso.svg);
+	background-size: 100% 100%;
+}
+
+#encabezado.no-escudo .izquierda a
+{
+	background:url(../imagenes/firma-tipográfica-una-linea-blanco.svg);
+	background-size: 100% 100%;
+}
+
+#encabezado.desplazado .izquierda a
+{
+	background:url(../imagenes/firma-horizontal-una-linea-reverso.svg);
+	background-size: 100% 100%;
+}

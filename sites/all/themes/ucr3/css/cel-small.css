@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+#marco-principal,
+#marco-principal.portada,
+#marco-principal.ingles,
+#marco-principal.portada.desplazado,
+#marco-principal.desplazado,
+#marco-principal.ingles.desplazado
+{
+	min-width:320px;
+}
+
+#encabezado,
+#encabezado.desplazado
+{
+	padding:0;
+	min-height:90px;
+}
+
+#encabezado .derecha
+{
+	margin-top:46px;
+}
+
+#encabezado .izquierda a,
+#encabezado.desplazado .izquierda a
+{
+	width:300px;
+	height:37px;
+}
+
+.contenido-interno
+{
+	min-width:320px;
+	width:320px;
+	max-width:320px;
+}
+
+.destaque-portada .noticias .panel
+{
+	width:320px;
+}
+
+.destaque-portada .noticias .noticia .izquierda,
+.destaque-portada .noticias .noticia .derecha
+{
+	width:320px;
+}
+
+.destaque-portada.principal .noticias
+{
+	width:2240px;  /* El ancho de un panel multiplicado por la cantidad de paneles a desplegar (7) */
+}
+
+.destaque-portada .noticias .flecha.atras
+{
+	top:205px;
+	left:962px;
+}
+
+.destaque-portada .noticias .flecha.delante
+{
+	top:205px;
+	left:1268px;
+}
+
+.detalle div.imagen.destacada.interna
+{
+	top:auto;
+	right:auto;
+	position:relative;
+}
+
+div.imagen.destacada.portada .marco,
+div.imagen.destacada.interna .marco,
+div.destacada.interna,
+div.imagen.destacada.interna .marco img
+{
+	width:312px !important;
+	overflow:hidden;
+}
+
+#marco-principal.multimedios div.galeria
+{
+	padding:10px 0 10px 0;
+	margin-left:-3px;
+}
+
+.detalle div.imagen-destacada
+{
+	width:320px;
+	height:200px;
+}
+
+principal.multimedios.principal ul.listado li:first-child,
+#marco-principal.multimedios.principal ul.listado li:first-child,
+#marco-principal.multimedios.principal ul.listado li .imagen.principal,
+#marco-principal.multimedios.principal ul.listado li .imagen.principal .imagen,
+#marco-principal.multimedios.principal ul.listado li.documento,
+#marco-principal.multimedios.principal ul.listado li.audio,
+#marco-principal.multimedios.principal ul.listado li.audio .contenedor,
+principal.multimedios.principal ul.listado li.audio,
+#marco-principal.multimedios.principal ul.listado
+{
+	width:320px !important;
+}
+
+div.columna-principal h1.noticia, 
+div.columna-principal h1.noticia a,
+div.columna-principal .principal.destacado h1,
+div.columna-principal .principal.destacado h1 a
+{
+	max-width:85%;
+}
+
+#marco-principal.multimedios.principal ul.listado li.audio
+
+.jp-audio
+{
+	max-width:320px;
+}
+
+div.imagen.destacada.portada .marco
+{
+	height:213px !important;
+}
+
+.destaque-portada.noticias .noticias .noticia .izquierda
+{
+	height:153px !important;
+}
+
+.destaque-portada.noticias .noticias .noticia .texto.izquierda h1,
+.destaque-portada.noticias .noticias .noticia .texto.izquierda h1 a
+{
+	font-size:16px;
+}
+
+div.imagen.destacada.interna .marco,
+div.destacada.interna,
+div.imagen.destacada.interna .marco img
+{
+	height:200px !important;
+}
+
+div.columna-principal div.noticia div.titulo
+{
+	max-width:280px;
+}
+
+#pie-pagina .derecha ul
+{
+	width:312px;
+	overflow:hidden;
+}
+
+div.columna-principal div.noticia div.titulo
+{
+	max-width:320px;
+}
+
+.destaque-portada .noticias .noticia .texto .sub, 
+.destaque-portada .noticias .noticia .texto a.sub
+{
+	font-size:14px;
+	font-weight:normal;
+}
+
+#multimedios .pizarra,
+#multimedios .pizarra .contenedor
+{
+	width:320px;
+}
+
+#multimedios .pizarra .contenedor
+{
+	border:0;
+}
+
+div.enlaces li span, 
+div.enlaces li a,
+.anuncios .panel ul li.lo-ultimo a,
+.anuncios .panel ul li.lo-ultimo span
+{
+	font-size:18px;
+}
+
+.portada div.columna-principal h2, 
+.portada div.columna-principal h2 a
+{
+	font-size:12px;
+}
+
+.noticia div.fecha
+{
+	top:-22px;
+}
+
+.noticia div.ribete
+{
+	top:29px;
+}
+
+.principal div.fecha, 
+.titulares div.fecha
+{
+	top:-20px;
+}
+
+.principal div.ribete, 
+.titulares div.ribete
+{
+	top:30px;
+}
+
+div.imagen.destacada.interna
+{
+
+}
+
+div.jp-video-400p,
+div.jp-video-480p,
+div.jp-video-640p,
+div.jp-video-640
+{
+	width:320px;
+}
+
+div.jp-video-400p div.jp-jplayer,
+div.jp-video-480p div.jp-jplayer,
+div.jp-video-640  div.jp-jplayer
+{
+	width:320px;
+}
+
+div.jp-video  div.jp-jplayer object,
+div.jp-video  div.jp-jplayer video
+{
+	width:320px !important;
+}
+
+

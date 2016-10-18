@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+a img
+{
+	border:none;
+}
+
+.destaque-portada.principal .noticias
+{
+	margin-left:-200%;
+}
+
+.destaque-portada .noticias .panel *
+{
+	filter:inherit;
+}
+
+.destaque-portada .noticias .panel
+{
+	filter:alpha(opacity=20); zoom:1;
+}
+
+.destaque-portada.noticias .noticias .panel
+{
+	filter:alpha(opacity=100); zoom:1;
+}
+
+.destaque-portada .noticias .panel.activo
+{	
+	filter:alpha(opacity=100) !important; zoom:1;
+}
+
+.destaque-portada .noticias .panel.activo .noticia.secundaria
+{
+	border-bottom:1px white solid;
+}
+
+.destaque-portada .noticias .panel.activo .noticia.secundaria:last-child
+{
+	border-bottom:none;
+}
+
+.overlay
+{
+	filter:alpha(opacity=50); zoom:1;
+}
+
+ul.listado li div.pie
+{
+	position:relative;
+	margin-top:0.2em;
+}
+
+#mosaico div:first-child span, 
+#mosaico div:first-child  + div + div + div + div span, 
+#mosaico div:first-child  + div + div + div + div + div + div span
+{
+background-color:#204D6F;
+}
+
+#mosaico div:first-child  + div span, 
+#mosaico div:first-child  + div + div + div + div + div span,
+#mosaico div:first-child  + div + div + div + div + div + div + div span
+{
+background-color:#41ADE7;
+}
+
+#mosaico div:first-child  + div + div span, 
+#mosaico div:first-child  + div + div + div span,
+#mosaico div:first-child  + div + div + div + div + div + div + div + div span
+{
+background-color:#FBB03B;
+}
